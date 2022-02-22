@@ -17,5 +17,4 @@ def ran():
         d=4
 
 ran()
-
 print(d)
