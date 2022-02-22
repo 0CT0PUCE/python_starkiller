@@ -3,7 +3,7 @@ import random
 n = random.randint(1,4)
 print(n)
 global d
-d =0
+d = 0
 def ran():
     global d
     n = random.randint(1,4)
