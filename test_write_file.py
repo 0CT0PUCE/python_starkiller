@@ -1,7 +1,7 @@
-with open('D:\ARCHIVES\Computer_stuff\ATOM\old.txt') as fobj:
+with open('path/to/txt/file') as fobj:
     text = fobj.read()
 name = 0
-a_file = open("D:\ARCHIVES\Computer_stuff\ATOM\old.txt", "r")
+a_file = open("path/to/txt/file", "r")
 lines = a_file.readlines()
 last_lines = lines[-5:]
 print(last_lines)
@@ -14,7 +14,7 @@ for element in last_lines:
 a_file.close()
 name=str(name)
 print(name)
-with open('D:\ARCHIVES\Computer_stuff\ATOM\old.txt', 'a') as fobj:
+with open('path/to/txt/file', 'a') as fobj:
     if not text.endswith('\n'):
         fobj.write('\n')
     fobj.write(name)
